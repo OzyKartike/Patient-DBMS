@@ -1,14 +1,23 @@
 # Patient-DBMS
-Using MySQL, Oracle, created a DBMS for "patient information system" with a unix UI. The DBMS has the following ER diagram:
-<img width="664" alt="Screenshot 2023-11-03 at 12 00 39 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/8daeca88-769c-4b37-bc11-6c1b8bfa9b6e">
+## Overview
+Using MySQL, Oracle, created a DBMS for "patient information system" with a unix UI. In summary, creating this project tooks months of diligent work and planning. To succesfully tackle this problem the project was broken down to parts and solved individually. First was the implementation of the ER diagram which took in the strength and type of the entities/attributes into heavy consideration. Secondly tables were created in SQL with respect to the ER diagram which in-turn created the relations diagram from oracle. Thirdly, Populated the tables with an excel sheet produced from chatGPT to create random dummy values for all parameters. Then I created some simple and advanced queries for random data accumulation. Finally the UNIX UI was implemented using shell commands.
+
+The ER diagram is shown below:
+
+<img width="1706" alt="Screenshot 2023-11-03 at 6 47 36 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/66042902-b1af-4091-b3b8-e53d2a546153">
+
 With the following relational diagram:
+
 <img width="1134" alt="Screenshot 2023-11-03 at 6 56 50 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/aaa3b4d4-14c9-4d7c-a4c9-cf54bde4512a">
-For a detailed relationship analysis, Attributes analysis
-Data type and length definition for attributes (integer, float, string, ...) 
-Cardinality
-Keys analysis of entities (primary/Foreign)
+
+For a detailed relationship analysis, Attributes analysis, Data type and length definition for attributes (integer, float, string, ...), Cardinality, and Keys analysis of entities (primary/Foreign) please read the "Patient_Information:applicabe uses.pdf" file. Additionally, you can look at some advanced queries in the "QUERY CODE.sql" 
+file. For the user interface it was done connecting to the moon server and running unix shell commands: below is the main function interface alongside all the results of the different options you could have picked.
+
+<img width="459" alt="Screenshot 2023-11-03 at 7 24 40 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/1431bbba-b591-4dcd-8c78-5e33fd13c848">
+
+<img width="504" alt="Screenshot 2023-11-03 at 7 38 36 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/282339ab-7698-4bb6-b444-5bf3b16df0d8">
 
 
-Future improvements:
+## Future improvements:
 1. Normalize all tables to be in 3NF or BCNF
 2. JAVA (or Python) UI or web application implementation (upgrading from Unix UI)

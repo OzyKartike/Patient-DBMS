@@ -1,4 +1,4 @@
-<img width="930" alt="Screenshot 2023-11-03 at 7 40 51 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/585344ae-4c12-4d01-95cc-4d06ec3ea991"><img width="930" alt="Screenshot 2023-11-03 at 7 40 51 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/3da23e25-c24e-4fe6-be05-d1387eb2d119"># Patient-DBMS
+
 ## Overview
 Using MySQL, Oracle, created a DBMS for "patient information system" with a unix UI. In summary, creating this project tooks months of diligent work and planning. To succesfully tackle this problem the project was broken down to parts and solved individually. First was the implementation of the ER diagram which took in the strength and type of the entities/attributes into heavy consideration. Secondly tables were created in SQL with respect to the ER diagram which in-turn created the relations diagram from oracle. Thirdly, Populated the tables with an excel sheet produced from chatGPT to create random dummy values for all parameters. Then I created some simple and advanced queries for random data accumulation. Finally the UNIX UI was implemented using shell commands.
 
@@ -23,7 +23,7 @@ file. For the user interface it was done connecting to the moon server and runni
 
 #### Create Tables
 
-<img width="930" alt="Screenshot 2023-11-03 at 7 40 51 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/0573c64e-ecd7-49ac-b042-7a10a08099bf">
+<img width="911" alt="Screenshot 2023-11-03 at 7 41 23 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/27da29a1-e1c9-4757-ba6d-84bfb0ca73ee">
 
 #### Populate Tables
 

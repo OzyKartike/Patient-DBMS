@@ -2,6 +2,7 @@
 ## Overview
 Using SQL and Oracle, created a DBMS for "patient information system" with a unix UI. In summary, creating this project tooks months of diligent work and planning. To succesfully tackle this problem the project was broken down to parts and solved individually. First was the implementation of the ER diagram which took in the strength and type of the entities/attributes into heavy consideration. Secondly tables were created in SQL with respect to the ER diagram which in-turn created the relations diagram from oracle. Thirdly, Populated the tables with an excel sheet produced from chatGPT to create random dummy values for all parameters. Then I created some simple and advanced queries for random data accumulation. Finally the UNIX UI was implemented using shell commands.
 
+# Checkout the website: https://apex.oracle.com/pls/apex/r/patient_record_information_managment_system/patient/login?session=104014333844039
 The ER diagram is shown below:
 
 <img width="1706" alt="Screenshot 2023-11-03 at 6 47 36 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/66042902-b1af-4091-b3b8-e53d2a546153">

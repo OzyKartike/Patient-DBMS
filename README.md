@@ -35,5 +35,5 @@ file. For the user interface it was done connecting to the moon server and runni
 <img width="657" alt="Screenshot 2023-11-03 at 7 44 39 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/fd17dd12-1e67-49a6-bf64-426864f2c85d">
 
 ## Future improvements:
-1. Normalize all tables to be in 3NF or BCNF
-2. JAVA (or Python) UI or web application implementation (upgrading from Unix UI)
+1. Normalize all tables to be in 3NF or BCNF (done!)
+2. JAVA (or Python) UI or web application implementation (upgrading from Unix UI) (done!)

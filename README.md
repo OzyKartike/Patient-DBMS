@@ -6,9 +6,10 @@ Using SQL and Oracle, created a DBMS for "patient information system" with a uni
 https://apex.oracle.com/pls/apex/r/patient_record_information_managment_system/patient/login?session=104014333844039
 
 Username: user1
+
 Password: test1234
 
-###The ER diagram is shown below:
+### The ER diagram is shown below:
 
 <img width="1706" alt="Screenshot 2023-11-03 at 6 47 36 PM" src="https://github.com/OzyKartike/Patient-DBMS/assets/64118528/66042902-b1af-4091-b3b8-e53d2a546153">
 
